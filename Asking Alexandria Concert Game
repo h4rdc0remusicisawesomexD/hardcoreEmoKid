@@ -1,0 +1,181 @@
+// Check if the user is ready to play!
+confirm("I am ready to start playing!");
+
+// What's your age?
+var age = prompt("What's your age?");
+
+if(age<13)
+{
+    confirm("Okay, seeing you're under 13, get out! Come back when you're older! You must be at least 13 to be in a mosh pit, anybody under this age can't handle the h4rdc0ren3$$ and br00t4l music xD");
+    console.log("You're not h4rdc0re enough!!!");
+    console.log("Go listen to your crappy Black Veil Brides CDs! They saved your life, didn't they??!!");
+    console.log("Or worse, Blood On the Dance Floor! That band's awesome - I mean, their lyrics are atrocious! I HATE THEM!!!!!!! I HATE DAHVIE VANITY!!!!!");
+    console.log("COME BACK WHEN YOU'RE OLDER!!!!!!! LITTLE WANNABE EMO SCENE KID!!!!!");
+    
+}
+else
+{
+    confirm("Congratulations, you are of age to play!");
+    confirm("You are at an Asking Alexandria concert, jumping around in the mosh pit, when you hear the song 'Dear Insanity'.");
+
+confirm("You think 'Should I go really h4rdc0re insane in the mosh pit, or just continue being a normal scene/emo kid moshing?'");
+var userAnswer = prompt("Do you choose to do some really hardcore moshing?");
+
+if (userAnswer === "yes") {
+    userAnswer2 = prompt("You start running and stomping all around the mosh pit, screaming along to the song, and body-slamming random strangers. You make the other emo and scene and hardcore kids quickly get out(because getting body-slammed into isn't quite fun unless you're a masochist). Now you're the only one moshing, and you suddenly feel like you need to empty your bladder or it's gonna BLOW. Do you want to stop moshing to go to the bathroom?");
+    
+    if (userAnswer2 === "yes") 
+    {
+        confirm("You run off to the bathroom, clutching your stomach and praying you won't lose control in front of everybody. You stumble into a stall, close your eyes, and breathe a sigh of relief.");
+        userAnswer3 = prompt("You get out of the bathroom after about ten minutes(you had decided to take a number two as well, a big one), but when you open the bathroom door(not the stall door), a huge, beefy emo guy with a Pete Wentz hairdo is standing outside. He looks FURIOUS. Also he keeps clenching and unclenching his fists, and staring right at you with an expression of deep disgust. You're scared. Do you retreat back into the bathroom?");
+        
+        if (userAnswer3 === "yes") {
+            confirm("You slam the bathroom door shut, and lock it. Which is a huge relief, because half a second after the lock slides into place, the scary emo guy starts hammering on the door, bellowing unthinkable curse words at you.");
+            userAnswer4 = prompt("He finally leaves. At least, the hammering on the door has stopped. Do you open the door to look around?");
+            if(userAnswer4 === "yes") {
+                confirm("You cautiously peep around the door frame. Coast is clear.");
+                confirm("You return back to the concert, slightly shaken but otherwise unfazed.");
+                
+            } else {
+                confirm("No, not yet. You decide to stay put until your parents came to pick you up.");   
+                
+            }
+        } else {
+            confirm("You look back at the angry emo, and ask 'WHAT ARE YOU LOOKING AT??!!!!! MOTHER TRUCKER!!!!'");
+            confirm("The angry emo yells back 'YOU STOLE MY ASKING ALEXANDRIA BAND MERCH! I WANT 'EM BACK!!!! MY CDS, MY BAND T-SHIRT, AND MY WRISTBANDS!!!'");
+            confirm("'I DIDN'T!' you reply indignantly. 'LEAVE ME ALONE!!!!'");
+            confirm("You and the emo argue for a few minutes, then decide to go back to the concert.");
+            peterpeterpumpkineater = prompt("The band is now playing 'Don't Pray For Me'. The angry Pete Wentz emo had found all his missing band merch, and you get mad at him for accusing you. Do you want to push him into a crowd of scene kids?");
+            
+            if(peterpeterpumpkineater === "yes") {
+                confirm("The scene kids chase him around the mosh pit, yelling 'You aren't hardcore enough!' like they always do.");
+                chasing = prompt("You, the scene kids, and the Pete Wentz emo all run out of the concert hall and down the street. You're very tired now, but do you wanna stop running?");
+                if (chasing === "no") {
+                    confirm("No? Okay, then. You kept running, and you, the scene kids, and the emo all fall into a river.");
+                    confirm("And no, you guys didn't die.");
+                    confirm("You all floated down the river, bellowing quite a lot of interesting swear words at each other.");
+                    shipwrecked = prompt("You guys float down to a deserted island. It's uninhabited, really small, and located right in the center of a lake connected to the river. Do you wanna keep fighting? ;)");
+                    if(shipwrecked === "yes") {
+                        confirm("You, the scene kids, and the emo keep yelling at each other. You all get tired eventually and separate so you can each figure out how to live on your own.");
+              
+                    } else {
+                        confirm("You all decided to stop fighting, and figure out a way to get out of here together.");
+                    }
+                    
+                } else {
+                    confirm("A unicorn explodes out of the clouds above you!");
+                }
+                
+                
+            } else {
+                // You didn't push him into the crowd of scene kids.
+                confirm("You");
+            }
+
+        }
+    } else {
+        confirm("Oh well. You're having too much fun. You start to headbang, but then a horrified expression appears on your face as you realize that you peed your pants.");
+        kittens = prompt("'Hey!' yells a scene girl with bleach-blonde, orange-highlighted, teased hair. 'That kid over there just peed his/her pants! Get out of the mosh pit! Gross!' Do you want to run out on your own?");
+        if (kittens === "no") {
+            confirm("You give the girl your middle finger, which is quite rude but she deserved it for embarrassing you!xD You clean yourself off in the bathroom, and come back in time to get your band merch signed.");
+            fish = prompt("You get your band t-shirt, posters, CDs, and even your Converse signed by the entire band, when you see the scene girl that had the nerve to embarrass you. Do you wanna report her for sneaking back into the concert?");
+            if (fish === "yes") {
+                confirm("Just as you are about to open your mouth to report that imbecile, she runs off and hides.");
+                confirm("'Dammit!' you think.");
+                
+            } else {
+                confirm("
+            }
+        } else {
+            confirm("You run out of the concert, your face bright red.");
+            cats = prompt("Suddenly, you see Danny Worsnop, the lead singer of Asking Alexandria. He kicks out the stupid scene girl that embarrassed you, and makes you clean up and allows you to join back in the fun. ARE YOU GONNA THANK HIM OR NOT YOU UNGRATEFUL BRAT??!!!>:-D");
+        }
+    }
+} else {
+    rats = prompt("You continue with your normal moshing, and you collide with some British dude with tattoos and really flippy scene hair. It's Oliver Sykes! From Bring Me the Horizon! You can't believe you'd get to meet TWO different bands at one band's concert! Would you like to talk to him?");
+    if (rats === "no") {
+        confirm("You see that on a closer glance, he's just some random look-a-like. Furious with your disappointment, you yell out a song request for the band to play 'Hey there Mr. Brooks'.");
+        dickens = prompt("As Asking Alexandria's singer Danny Worsnop starts bellowing out the hardcore vocals, a group of emos get into a fight. Do you join in?");
+        if (dickens === "yes") {
+            confirm("The emos seem to be fighting over a poster of Justin Bieber. 'It's mine! I get to rip it!' yells a girl with tons of eyeliner and a nose ring. 'No, it's mine! I bought it, I swear!' says a kid wearing a pair of really tight jeans and a hardcore studded belt. 'I want to destroy it! Give it back!' yells a guy with (obviously) dyed black hair and a REALLY hardcore lip ring that was sparkly pink and purple.");
+            emo = prompt("'I WANNA RIP IT!!' you scream, snatching away the poster and shredding it to bits in all your emo-Bieber-hater glory. I'd suggest you run now, before the emos get mad at you and hunt you down. Yes or no?");
+            if (emo === "yes") {
+                confirm("You run away, scattering the remains of the poster behind you like confetti.");
+                fight = prompt("Now there are three angry emos chasing after you. You decide to hide somewhere, but the only place to hide is behind the lead guitarist. Do you hide behind the guitarist? ;)");
+                if(fight === "yes") {
+                    confirm("As you try to hide behind him unnoticed, the band notices you, and immediately switches to the song 'To the Stage'.");
+                    hardcore = prompt("Do you push the emo trio off the stage, as they try to follow you?");
+                } else {
+                    confirm("Nope. Probably shouldn't do that. You decide to fight the emos.");
+                    confirm("You throw a tomato at them, and with this simple act, single-handedly defeat the enemy emos. But you get kicked out of the concert for being stupid. Game over, you poser...");
+                    console.log("GAME OVER. You shouldn't have thrown that tomato... looks like you're banned from every Asking Alexandria concert there will ever be.");
+                }
+            } else {
+                confirm("The emo kids stare at you, mouths hanging open like fish, for what seems like an hour.");
+                confirm("Finally, they congratulate you on destroying Justin Bieber's poster, and you guys decide to talk to the band together!");
+                AskDannyWorsnop = prompt("Type in 'Danny' if you want to talk to Danny Worsnop(the lead singer!) ");
+            }
+        } 
+    } else {
+        confirm("'Hi Oli!' you squeal, being the crazed little fangirl/fanboy you are. But then you realize, it's not Oliver Sykes; it's just some random scene guy that looks like him. What a disappointment. :'(");
+        chickens = prompt("The Oliver Sykes look-a-like gets mad at you, and punches you in the face. You black out, then suddenly wake up in the dark storage cabinet. Do you call for help?");
+        if (chickens === "yes") {
+           confirm("You call for help, but nobody comes to the rescue!");
+           
+           
+        } else {
+            confirm("You're too tired and want to sleep, so you just lie down, and take a nice, long nap.");
+            confirm("You sleep for like, three hours? All the moshing and jumping around had made you tired.");
+            sleepForHelp = prompt("You wake up in the trunk of a car! You've been abducted! Do you scream?");
+            if(sleepForHelp === "yes") {
+                confirm("You scream until the car stops.");
+                confirm("The trunk opens.");
+                confirm("You are shocked to see a bunch of teenage boys with backwards baseball caps, flashy sneakers, and wallet chains over saggy jeans looking down at you, gangster-rap music blasting from their car radio. They're chav kids from your school! And they're known to hate emo kids! Like you!");
+                ohNo = prompt("You spot one guy that you REALLY hate. Do you punch him?;)");
+                if(ohNo === "yes") {
+                    confirm("Dangit! You miss, and the mean kids drag you out.");
+                    confirm("They stick you upside-down in a garbage bin, tape a piece of paper with 'emo fag' written on it to your feet, and drive away, laughing.");
+                    confirm("You jump out of the garbage bin somehow, and run after their car.");
+                    carJumper = prompt("You're awfully close to their car now, which is been driven slowly because they're in a residential neighborhood and they don't know you're after them. Do you wish to jump on top of their car?");
+                } else {
+                    confirm("You glare at them hard, then make a break for it.");
+                    confirm("The mean kids run after you, yelling 'come back!'");
+                    confirm("As if you're going to, stupid kids...");
+                    confirm("You turn the corner into your own neighborhood, and arrive at your house out of breath. You go into your room and listen to some h4rdc0re music, and that is what you do until the end of the day. <3");
+                    rateThisGame = prompt("Rate this game out of 10!");
+                    
+                    if (rateThisGame >= 8) {
+                        console.log("Thanks for playing! Come back again soon!");
+                    } else {
+                        console.log("You ungrateful little unicorn! You imbecile! Do you have any idea how much time I spent creating this game? And yet you choose to give it a crappily-low rating! Well, if you hate it so much, why don't you go away and never return??!!! Oh, and tell Andy Biersack hello for me. Tell him I hate him! >:-(");   
+                    }
+                }
+                
+            } else {
+                confirm("Better not scream. Better to pretend to be still unconscious while you try to figure out what to do.");
+                confirm("You don't have a phone, but you find a pocketnife after a minute of digging around in the trunk.");
+                escapeTheTrunkAndYourFate = prompt("Type in 'yes' if you choose to pry the trunk open with the knife, 'no' if you just want to save it for later.");
+                
+                if (escapeTheTrunkAndYourFate === "yes") {
+                    confirm("You open the trunk with the knife, and find the car has stopped. There are some scary guys in black masks climbing out... D: ");
+                    confirm("But this is your only chance! You can't lose it! You jump out of the car and sprint down the street.");
+                    confirm("The scary masked guys follow you, and you fend them off with the knife.");
+                    thePoliceIsHere = prompt("All of a sudden, police cars pull up, lights flashing. 'Put your hands above your head!' a voice orders. Do you follow their instructions?");
+                    if (thePoliceIsHere === "yes") {
+                        confirm("You obey them.");
+                        confirm("'Not you!' says the cop.");
+                        confirm("What can I say, you're pretty relieved. :-)");
+                        confirm("The police take you back home, and the scary masked men go to jail. The end! Happily ever after!");
+                        happilyEverAfterBelowTheWaist = prompt("Rate this game out of 10!");
+                        
+                        
+                    } else {
+                        
+                    }
+                }
+                
+            }
+        }
+    }
+} 
+}
